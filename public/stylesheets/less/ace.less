@@ -1,0 +1,506 @@
+body {
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background: #FFF;
+    font-size: 12px;
+    color: #333;
+}
+
+body>div {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div,
+form,
+ul,
+ol,
+li,
+span,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img,
+a img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+ul,
+ol,
+li {
+    list-style: none
+}
+
+table,
+td,
+input {
+    font-size: 12px
+}
+
+a {
+    outline-style: none;
+    color: #333;
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cl {
+    clear: both;
+    content: "";
+    overflow: hidden; // display: table;
+}
+  .swiper-button-next{
+    width: 30px;
+    height: 30px;
+    background-image: url("./../../../image/图标/左右键.png");
+    background-size: 30px 30px;
+  }
+  .swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    background-image: url("./../../../image/图标/左右键_1.png");
+    background-size: 30px 30px;
+  }
+body {
+    header {
+        .top {
+            width: 100%;
+            height: 35px;
+            background-color: rgba(175, 175, 175, 0.15);
+            border-bottom:1px solid rgba(175, 175, 175, 0.15);
+            .werp {
+                width: 1200px;
+                height: 35px;
+                margin: 0 auto;
+                line-height: 35px;
+                .top-left {
+                    ul {
+                        li {
+                            float: left;
+                            width: 70px;
+                        }
+                    }
+                }
+                .top-right {
+                    ul {
+                        li {
+                            float: right;
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+        .logo {
+            width: 100%;
+            height: 120px;
+            .werp {
+                width: 1200px;
+                height: 120px;
+                margin: 0 auto;
+                .logo-left {
+                    float: left;
+                }
+                .logo-centent {
+                    width: 600px;
+                    height: 120px;
+                    margin: 0 auto;
+                    line-height: 120px;
+                    input {
+                        width: 600px;
+                        height: 40px;
+                        border-radius: 20px;
+                        border: 2px solid #ff5000;
+                        background-image: url("./../../../image/箭头.jpg");
+                        background-repeat: no-repeat;
+                        background-position: right;
+                        padding-right: 100px;
+                        outline: medium;
+                        padding-left: 10px;
+                    }
+                    .btn {
+                        button {
+                            position: relative;
+                            top: -122px;
+                            left: 264px;
+                            z-index: 100;
+                            width: 74px;
+                            height: 40px;
+                            overflow: hidden;
+                            text-align: center;
+                            border: none;
+                            border-top-right-radius: 20px;
+                            border-bottom-right-radius: 20px;
+                            background-color: #FF4200;
+                            color: #FFF
+                        }
+                    }
+                }
+            }
+        }
+        .nav {
+            width: 100%;
+            height: 30px;
+            background: linear-gradient(to right, #ffa024 , #ff5e00);
+            
+            .werp {
+                width: 1200px;
+                height: 30px;
+                margin: 0 auto;
+                .nav-left {
+                    ul {
+                        li {
+                            float: left;
+                            line-height: 30px;
+                            font-weight: 600;
+                            color: #FFF;
+                            font-size: 15px;
+                            width: 190px;
+                            background-color: #ff5000;
+                        }
+                    }
+                }
+                .nav-right {
+                    ul {
+                        li {
+                            float: right;
+                            line-height: 30px;
+                            font-weight: 600;
+                            color: #FFF;
+                            font-size: 15px;
+                            width: 84px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section {
+        background-color: rgba(175, 175, 175, 0.1);
+        width: 100%;
+        height: 900px;
+        .werp {
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto; // 列表
+            .hove {
+                width: 190px;
+                background-color: #FFF;
+                border: 1px solid red;
+                line-height: 32px;
+                font-size: 14px;
+                font-weight: 400;
+                text-align: left;
+                li {
+                    background-image: url("./../../../image/箭头---副本.png");
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    padding-left: 20px;
+                    .li-none {
+                        width: 710px;
+                        height: 514px;
+                        border: 1.5px solid red;
+                        position: absolute;
+                        left: 28.41%;
+                        top: 190px;
+                        z-index: 99999999999;
+                        display: none;
+                        background-color: #FFF;
+                        .li-none-left {
+                            width: 480px;
+                            height: 520px;
+                            padding-left: 20px;
+                            padding-top: 20px;
+                            border-right: 1px solid rgba(175, 175, 175, 0.1);
+                            z-index: 9;
+                            .list {
+                                width: 98%;
+                                .list-top {
+                                    font-size: 17px;
+                                    font-weight: 500;
+                                    margin-bottom: 10px;
+                                }
+                                .list-nav {
+                                    a {
+                                        display: black;
+                                        font-size: 12px;
+                                        margin-left: 10px;
+                                        padding: 5px 0;
+                                        float: left;
+                                    }
+                                    a:hover {
+                                        text-decoration: none;
+                                        font-size: 12px;
+                                        color: #333;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                            .list-body {
+                                margin-top: 140px;
+                                .list-top {
+                                    font-size: 17px;
+                                    font-weight: 500;
+                                    margin-bottom: 10px;
+                                }
+                                .list-nav {
+                                    a {
+                                        display: black;
+                                        font-size: 12px;
+                                        margin-left: 10px;
+                                        padding: 5px 0;
+                                        float: left;
+                                    }
+                                    a:hover {
+                                        text-decoration: none;
+                                        font-size: 12px;
+                                        color: #333;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+                        .li-none-right {
+                            width: 224px;
+                            height: 520px;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                li:hover .li-none {
+                    display: block;
+                }
+                li:hover {
+                    background-image: none;
+                    background-color: #ffe4dc;
+                }
+                li a:hover {
+                    text-decoration: underline;
+                    font-weight: bold;
+                    color: #e4393c;
+                }
+            } 
+            // 轮播图
+            #swiper1 {
+                width: 520px;
+                height: 280px;
+                position: absolute;
+                left: 550px;
+                top: 200px;
+                img{
+                    width: 520px;
+                    height: 280px;
+                }
+            }
+            .hot-img {
+                position: relative;
+                top: 10px;
+                left: 534px;
+            }
+            //轮播图2
+            #swiper2{
+              width: 520px;
+              height: 220px;
+              position: absolute;
+              top: 485px;
+              left: 550px;
+              img{
+                width: 520px;
+                height: 240px;
+                }   
+              .swiper-scrollbar{
+                top: 2px;
+                height: 3px;
+              }
+            }
+            .hot-goods{
+              position: relative;
+              top: 313px;
+              left: 375px;
+            }
+            .news {
+                width: 290px;
+                height: 514px;
+                margin-right: 15px;
+                .news-top {
+                    width: 290px;
+                    height: 150px;
+                    margin-top: 10px;
+                    background-image: url("./../../../image/6396039c-4dff-4d32-a462-dac4f49cb8e01x.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 290px 150px;
+                    .icon {
+                        margin: 0 auto;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background-color: #e4393c;
+                    }
+                    .news-input {
+                        width: 290px;
+                        height: 17px;
+                        text-align: center;
+                        .news-inpu1 {
+                            height: 15px;
+                            text-align: center;
+                            padding: 0 5px;
+                            background-color: pink;
+                            border-radius: 20px;
+                        }
+                    }
+                    .news-top-btn {
+                        background-color: #ff7b00e0;
+                        width: 70px;
+                        height: 25px;
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                        margin-left: 5px;
+                    }
+                }
+                .news-pink {
+                    width: 290px;
+                    height: 25px;
+                    background-color: pink;
+                    line-height: 25px;
+                    a{
+                        .news-pink-sgin{
+                            position: absolute;
+                            right: 414px;
+                            top: 357px;
+                            line-height: 0;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            margin-left: 32px;
+                            border-width: 5px 0 5px 7px;
+                            border-color: transparent transparent transparent #f40;
+                        }
+                    }
+                }
+                .news-sect{
+                    width: 290px;
+                    height: 110px;
+                    background-color: #FFF;
+                    .news-sect-nav{
+                        li{
+                            width: 55px;
+                            float: left;
+                            margin-top: 15px;
+                        }
+                    }
+                    .news-sect-pai{
+                        .pai-sect{
+                            text-align: left;
+                            padding-left: 15px;
+                            margin-top: 8px;
+                            li{
+                                padding-top: 10px;
+                            }
+                            li:first-child{
+                                color:red;
+                            }
+                            li:nth-child(2){
+                                float: left;
+                                padding-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .news-bottom{
+                  width: 290px;
+                  .news-bottom-list{
+                    margin-top: 10px;
+                    li{
+                      float: left;
+                      border: 1px solid rgba(175, 175, 175, 0.2);
+                      a{
+                        display: block;
+                        padding-top: 15px;
+                        width: 70px;
+                        height: 75px;
+                        span{
+                          width: 30px;
+                          height: 30px;
+                          display: inline-block;
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px 30px;
+                        }
+                        .news-bottom-list-img1{
+                          background-image: url("../../../image/图标/手机.png");
+                        }
+                        .news-bottom-list-img2{
+                          background-image: url("./../../../image/图标/旅行.png");
+                        }
+                        .news-bottom-list-img3{
+                          background-image: url("./../../../image/图标/泊车.png");
+                        }
+                        .news-bottom-list-img4{
+                          background-image: url("./../../../image/图标/游戏.png");
+                        }
+                        .news-bottom-list-img5{
+                          background-image: url("./../../../image/图标/彩票.png");
+                        }
+                        .news-bottom-list-img6{
+                          background-image: url("./../../../image/图标/电影.png");
+                        }
+                        .news-bottom-list-img7{
+                          background-image: url("./../../../image/图标/酒店_.png");
+                        }
+                        .news-bottom-list-img8{
+                            background-image: url("../../../image/图标/理财.png")
+                        }
+                        .news-bottom-list-img9{
+                          background-image: url("./../../../image/图标/服务.png");
+                        }
+                        .news-bottom-list-img10{
+                          background-image: url("./../../../image/图标/音乐.png");
+                        }
+                        .news-bottom-list-img11{
+                          background-image: url("./../../../image/图标/水电煤.png");
+                        }
+                        .news-bottom-list-img12{
+                          background-image: url("./../../../image/图标/火车票.png");
+                        }
+                      }
+                      a:hover{
+                        text-decoration:none;
+                      }
+                      a:hover p{
+                        color: #e4393c;
+                      }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
